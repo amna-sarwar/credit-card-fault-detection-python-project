@@ -42,7 +42,7 @@ This project highlights the effectiveness of machine learning algorithms, partic
 # How to Run
 # Clone the repository:
 
-git clone https://github.com/yourusername/credit-card-fraud-detection.git
+git clone https://github.com/amna-sarwar/credit-card-fraud-detection.git
 # Install the necessary libraries:
 
 pip install -r requirements.txt
