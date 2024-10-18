@@ -39,9 +39,16 @@ LightGBM: Performed well but not as consistently as Random Forest or XGBoost.
 # Conclusion
 This project highlights the effectiveness of machine learning algorithms, particularly Random Forest and XGBoost, in detecting fraudulent credit card transactions. It also underscores the importance of handling imbalanced datasets using techniques such as SMOTE to improve the model's ability to identify fraud accurately.
 
-Future Work
-Future improvements could include:
 
-Exploring neural networks and deep learning techniques.
-Applying advanced hyperparameter tuning methods like Grid Search and Randomized Search.
-Testing alternative balancing techniques like Borderline-SMOTE.
+# How to Run
+# Clone the repository:
+
+git clone https://github.com/yourusername/credit-card-fraud-detection.git
+# Install the necessary libraries:
+
+pip install -r requirements.txt
+# Run the Jupyter Notebook to train and evaluate models:
+
+jupyter notebook Credit_Card_Fraud_Detection.ipynb
+
+
