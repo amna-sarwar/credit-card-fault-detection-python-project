@@ -9,7 +9,6 @@ With the rise of online transactions and digital payments, credit card fraud has
 # Dataset
 The dataset used for this project was sourced from the Credit Card Fraud Detection Dataset available on Kaggle. It contains 284,807 transactions, of which 492 are fraudulent. The data consists of numerical features resulting from a Principal Component Analysis (PCA) transformation, with two untransformed features: Time and Amount. The class label is binary, where 1 indicates a fraudulent transaction and 0 indicates a legitimate one.
 
-Source: Kaggle - Credit Card Fraud Detection
 # Data Preprocessing
 Given the high imbalance in the dataset, where only 0.172% of transactions are fraudulent, standard machine learning models would struggle to identify fraud accurately. The Synthetic Minority Oversampling Technique (SMOTE) was applied to balance the dataset by oversampling the minority class (fraudulent transactions).
 
